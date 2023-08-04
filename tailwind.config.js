@@ -5,6 +5,12 @@ export default {
   ],
   theme: {
     extend: {},
+    colors : {
+      "bg-kingblue" : "#4169E1",
+      "bg-purple": "#800080",
+      "bg-yellow" : "#F1C40F",
+    }
+    
   },
   plugins: [],
 }
