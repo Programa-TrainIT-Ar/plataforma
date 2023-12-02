@@ -3,14 +3,14 @@ import React from 'react'
 
 interface Props {
   size: "small" | "medium" | "large";
-  header?: string;
+  title?: string;
   outline?: boolean;
 }
 
-export const Input = ({size, header}:Props) => {
+export const Input = ({size, title}:Props) => {
   return (
     <div className='col-5 flex flex-column m-2'>
-          <label>{header}</label>
+          <label>{title}</label>
           <InputText type="text" />
       </div>
   )
