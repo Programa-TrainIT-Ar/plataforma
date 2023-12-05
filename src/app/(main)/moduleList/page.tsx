@@ -3,7 +3,7 @@ import React from 'react'
 import { useFetch } from '../../../hook/UseFetch';
 import { NavLink } from 'react-bootstrap';
 
-export default function ListaModulo() {
+export default function ModuleList() {
   const { data } = useFetch('http://localhost:5000/modules')
 
   return (

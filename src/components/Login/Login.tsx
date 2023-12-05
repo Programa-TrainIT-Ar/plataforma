@@ -3,7 +3,7 @@ import React from 'react'
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 
-const login = () => {
+const Login = () => {
   return (
         <div className="card col-6 flex flex-column justify-content-center">
           <div className='flex justify-content-center'>
@@ -30,4 +30,4 @@ const login = () => {
     )
 }
 
-export default login
+export default Login

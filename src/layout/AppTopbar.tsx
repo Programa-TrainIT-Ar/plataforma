@@ -7,6 +7,7 @@ import { classNames } from 'primereact/utils';
 import React, { forwardRef, useContext, useImperativeHandle, useRef } from 'react';
 import { AppTopBarRef } from '../types/types';
 import { LayoutContext } from './context/layoutcontext';
+import { ButtonLogin } from '../components/ButtonLogin/ButtonLogin';
 
 const AppTopbar = forwardRef<AppTopBarRef>((props, ref) => {
     const { layoutConfig, layoutState, onMenuToggle, showProfileSidebar } = useContext(LayoutContext);
@@ -34,6 +35,7 @@ const AppTopbar = forwardRef<AppTopBarRef>((props, ref) => {
             <button ref={topbarMenuButtonRef} type="button" className="p-link layout-topbar-menu-button layout-topbar-button" onClick={showProfileSidebar}>
                 <i className="pi pi-ellipsis-v" />
             </button>
+            <ButtonLogin title='Equipo'/>
             {/* <button className='flex justify-content-evenly border-round-3xl' type='submit' onClick={() => dispatch(setTheme(newTheme))}>
             <i className="pi pi-moon m-1"/>
             <i className="pi pi-sun" />

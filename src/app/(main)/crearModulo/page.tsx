@@ -1,14 +1,14 @@
 
 'use client'
 import React from 'react';
-import ItemModule from '../../../components/CrearModulo/ItemModule'
-import FilterModule from '../../../components/CrearModulo/FilterModule';
+import FormCreateModule from './components/FormCreateModule';
+import DataTableModule from './components/DataTableModule';
 
 const CrearModules = () => {
   return (
     <div className='flex flex-column justify-content-center m-auto'>
-        <ItemModule/>
-        <FilterModule/>
+        <FormCreateModule/>
+        <DataTableModule />
     </div>
   )
 }
