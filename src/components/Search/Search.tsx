@@ -2,7 +2,8 @@
 import React from 'react'; 
 import { InputText } from "primereact/inputtext";
 
-export default function SearchModule() {
+export default function Search() {
+
     return (
         <div className="flex flex-wrap justify-content-center">
             <span className="p-input-icon-left">
@@ -12,4 +13,3 @@ export default function SearchModule() {
         </div>
     )
 }
-        

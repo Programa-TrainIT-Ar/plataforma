@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import SearchModule from './SearchModule';
+import React from 'react';
 import { ButtonPrimary } from '../../../../components/ButtonPrimary/ButtonPrimary';
 import { InputPrimary } from '../../../../components/InputPrimary/InputPrimary';
 import { TextArea } from '../../../../components/TextArea/TextArea';
 import GeneralDate from '../../../../components/GeneralData/GeneralDate';
+import Search from '../../../../components/Search/Search';
 
 const FormCreateModule = () => {
     return (
@@ -13,10 +13,10 @@ const FormCreateModule = () => {
                 <GeneralDate title='Fecha Inicio'/>
             </div>
             <div className="flex w-full flex-column   ">
-                <TextArea title='Descripción' placeholder='Objetivo del Módulo'/>
+                <TextArea title='Descripción' size='medium' placeholder='Objetivo del Módulo'/>
             </div>
             <div className="flex justify-content-around p-2">
-                <SearchModule icon='pi pi-search' title='Search'/>
+                <Search icon='pi pi-search' title='Search'/>
                 <ButtonPrimary title="Crear"  color="black" size="medium" icon="pi pi-plus" onclick={() => {}} />
             </div>
         </form>

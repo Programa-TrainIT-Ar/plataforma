@@ -6,7 +6,7 @@ import DataTableModule from './components/DataTableModule';
 
 const CrearModules = () => {
   return (
-    <div className='flex flex-column justify-content-center m-auto'>
+    <div className='col-11 flex flex-column justify-content-center m-auto'>
         <FormCreateModule/>
         <DataTableModule />
     </div>
