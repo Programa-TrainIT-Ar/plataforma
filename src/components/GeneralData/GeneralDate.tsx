@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Calendar } from 'primereact/calendar';
 
 interface Props {
+  id?: string;
   size?: 'small' | 'medium' | 'large';
   title?: string;
   outline?: boolean;

@@ -1,7 +1,8 @@
 import { InputText } from 'primereact/inputtext';
 
 interface Props {
-    size: 'small' | 'medium' | 'large';
+    id?: string;
+    size?: 'small' | 'medium' | 'large';
     title?: string;
     outline?: boolean;
     color?: ColorApp;

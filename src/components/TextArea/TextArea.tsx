@@ -13,7 +13,7 @@ export const TextArea = ({ size, title, color, outline, placeholder }: Props) =>
   return (
     <>
       <label className="">{title}</label>
-      <InputTextarea className=' border-round-2xl' placeholder={placeholder} rows={5} cols={30} />
+      <InputTextarea id='description' className=' border-round-2xl' placeholder={placeholder} rows={5} cols={30} />
     </>
   )
 }
